@@ -18,12 +18,12 @@ export class AppComponent {
     this.show();
   }
   // Scope in class or out of class
-  private firstName: string = 'Deepak';
-  private lastName: string = 'Kumar';
+  private firstName: String = 'Deepak';
+  private lastName: String = 'Kumar';
   public age: number = 58;
   public salary: number = 12.95;
   isActive: boolean = true;
-  gender: string = 'Male';
+  gender: String = 'Male';
   profilePhoto: any;
 
   public userName: Array<string> = ['Mohit', 'Deepak', 'Nilesh', 'Punit'];
@@ -35,7 +35,7 @@ export class AppComponent {
   private show() {
     console.log('Method: Show:- ');
 
-    let collageName: string = 'IET-DAVV';
+    let collageName: String = 'IET-DAVV';
     // Scope only in method
     let collageAddress = 'Indore';
 
