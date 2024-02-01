@@ -15,11 +15,11 @@ const routes: Routes = [
       component: addressSectionComponent,
     },
     {
-        path: 'orderConfirmation',
+        path: 'confirmation',
         component: orderConfirmationComponent,
       },
       {
-        path: 'orderSummary',
+        path: 'summary',
         component: orderSummaryComponent,
       },
   ];
