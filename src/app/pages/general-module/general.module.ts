@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { aboutUsComponent } from "../aboutUs-component/aboutUs-component";
 import { homeComponent } from "./home-component/home-component";
 import { itemSearchComponent } from "./itemSearch-component/itemSearch-component";
+import { GeneralRoutes } from "./gerneral.routes";
 
 
 @NgModule({
@@ -9,7 +10,7 @@ import { itemSearchComponent } from "./itemSearch-component/itemSearch-component
         homeComponent,
         itemSearchComponent
     ],
-    imports: []
+    imports: [GeneralRoutes]
 })
 export class GeneralModule{
 
